@@ -22,11 +22,11 @@ func onReady() {
 
 	go func() {
 		turnOn := systray.AddMenuItem("Turn On", "Turn Light On")
-		turnOff := systray.AddMenuItem("Turn Off", "Turn Light On")
+		turnOff := systray.AddMenuItem("Turn Off", "Turn Light Off")
 		systray.AddSeparator()
-		turnBright := systray.AddMenuItem("Bright", "Turn Light On")
-		turnNight := systray.AddMenuItem("Night", "Turn Light On")
-		turnFocus := systray.AddMenuItem("Focus", "Turn Light On")
+		turnBright := systray.AddMenuItem("Bright", "Bright")
+		turnNight := systray.AddMenuItem("Night", "Night")
+		turnFocus := systray.AddMenuItem("Focus", "Focus")
 		systray.AddSeparator()
 		mQuit := systray.AddMenuItem("Exit", "Quit the whole app")
 
